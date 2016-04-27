@@ -69,6 +69,7 @@ public class PalindromeChecker extends AppCompatActivity {
          * The last statement of your method should be to return result
          *
          */
+        boolean result;
         int indexFromEnd = word.length() - (index + 1);
 
         if (word.charAt(index) == word.charAt(indexFromEnd)) {
